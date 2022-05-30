@@ -64,15 +64,23 @@ export default function Home() {
             <p>Focused on competitive programming in high school and won <a href="https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics" className={styles.generalLink}>IOI</a> 2020. Created and grew a <a href="https://www.youtube.com/c/WilliamLin168" className={styles.generalLink}>YouTube channel</a> to 100k subscribers in just 6 months. Building <a href="https://nyalabs.com/" className={styles.generalLink}>NyaLabs</a>, a platform which helps influencers easily create NFTs and helps their audiences easily buy NFTs.</p>
           </div>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
+          <div className={styles.card}>
+            <h2>Julian Allchin</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Currently working on an intelligent planner for students that have trouble with time management
             </p>
-          </a>
+            <p>
+              Hacked the #1 most competitive video game in the world (Fully undetectable, cross-process memory cheat called Limestone)
+
+Trained an AI to detect enemy players in Valorant faster than a human can
+
+Used to go around breaking WPA WiFi security for fun
+
+Decrypted & modified iOS assembler code to hack a social media app (Circumvented Apple’s hardware-backed AES cryptography scheme)
+
+Wrote a small app that would completely freeze any Kahoot game
+            </p>
+          </div>
         </div>
 
         <h3 className={styles.header}>PROJECTS</h3>
@@ -80,7 +88,7 @@ export default function Home() {
           Coming soon...
         </div>
 
-        If you'd like to help support HackerHouse, please contact us at <a href="mailto: "></a>!
+        If you would like to help support HackerHouse, please contact us at <a href="mailto: "></a>!
       </main>
 
       <footer className={styles.footer}>
