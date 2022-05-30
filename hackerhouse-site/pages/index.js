@@ -25,7 +25,7 @@ export default function Home() {
 
         <p className={styles.description1}>
           HackerHouse is an 8-week experimental summer living space in Lake Tahoe for college-age software developers who identify as <a href="http://www.paulgraham.com/gba.html" className={styles.hackers}>hackers</a>.
-          Our members come from all kinds of computer science backgrounds -- competitive programming, web development, blockchain development, binary exploitation, to name a few -- but united in a hunger for building projects to be used by many.
+          Our members come from all kinds of computer science backgrounds -- competitive programming, web development, blockchain development, binary exploitation, to name a few -- but are united in a hunger for building projects to be used by many.
         </p>
 
         <p className={styles.description}>
@@ -49,10 +49,10 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <div className={styles.card}>
+            <h2>Liam Kronman</h2>
+            <p>built a <a href="https://www.insider.com/mit-student-made-fake-dating-app-prank-harvard-students-2021-11" className={styles.generalLink}>prank dating site</a> for Harvard (got quarter of school to sign up), created and run <a href="https://exexex.io" className={styles.generalLink}>ExExEx.io</a> (dating site that matches you with exes’ exes’ exes), made <a href="https://superlatives.app" className={styles.generalLink}>Superlatives</a> (voting game for friends) and <a href="https://beatstreet.live" className={styles.generalLink}>BeatStreet</a> (GitHub for original music)</p>
+          </div>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
