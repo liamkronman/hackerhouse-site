@@ -1,16 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Quicksand:wght@400;600');
+
 .container {
-  padding: 0 2rem;
+  background: #1199E5;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+.topNav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: space-between;
+  border-bottom: 1px solid #eaeaea;
+  padding: 0.5rem;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+  font-family: 'Ceviche One', cursive;
+  color: white;
+}
+
+.rightTopNav {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  min-width: 18rem;
+  padding: 0.5rem;
   align-items: center;
 }
+
+.rightTopNav a {
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 1.2rem;
+}
+
+.rightTopNav a:hover,
+.rightTopNav a:focus,
+.rightTopNav a:active {
+  color: #0070f3;
+}
+
+.houseWord {
+  color: #8FD7FF;
+}
+
+.description1 {
+  margin-top: 2rem;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  justify-content: left;
+  max-width: 80vw;
+}
+
+.description {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  justify-content: left;
+  max-width: 80vw;
+}
+
+.hackers {
+  color: #21defb;
+  font-style: italic;
+}
+
+.header {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.sponsors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 500px;
+}
+
+.sponsor {
+  width: 12rem;
+  margin: 0 1.5rem;
+}
+
+
+
+
 
 .footer {
   display: flex;
@@ -26,34 +117,6 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
 }
 
 .code {
