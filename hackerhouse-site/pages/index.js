@@ -44,10 +44,6 @@ export default function Home() {
         </div>
 
         <h3 className={styles.header}>MEMBERS</h3>
-        <div className={styles.members}>
-
-        </div>
-
         <div className={styles.grid}>
           <div className={styles.card}>
             <h2>Liam Kronman</h2>
@@ -121,24 +117,17 @@ export default function Home() {
         </div>
 
         <h3 className={styles.header}>PROJECTS</h3>
-        <div className={styles.projects}>
+        <p>
           Coming soon...
-        </div>
+        </p>
 
-        If you would like to help support HackerHouse, please contact us at <a href="mailto: "></a>!
+        <p>
+          If you would like to help support HackerHouse, please contact us at <a href="mailto:romulus@outtacontrol.net">romulus@outtacontrol.net</a>!
+        </p>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        Brought to you by HackerHouse.
       </footer>
     </div>
   )

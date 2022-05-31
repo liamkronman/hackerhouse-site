@@ -165,18 +165,8 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+  color: rgb(195, 195, 195);
+  font-family: 'Quicksand', sans-serif;
 }
 
 @media (max-width: 600px) {
