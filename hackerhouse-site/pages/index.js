@@ -17,13 +17,12 @@ export default function Home() {
             Hacker<span className={styles.houseWord}>House</span>
           </h1>
           <div className={styles.rightTopNav}>
-            <a>About</a>
-            <a>Members</a>
-            <a>Projects</a>
+            <a href="#about">About</a>
+            <a href="#members">Members</a>
+            <a href="#projects">Projects</a>
           </div>
         </div>
-
-        <p className={styles.description1}>
+        <p className={styles.description1} id="about">
           HackerHouse is an 8-week experimental summer living space in Lake Tahoe for college-age software developers who identify as <a href="http://www.paulgraham.com/gba.html" className={styles.hackers}>hackers</a>.
           Our members come from all kinds of computer science backgrounds -- competitive programming, web development, blockchain development, binary exploitation, to name a few -- but are united in a hunger for building projects to be used by many.
         </p>
@@ -43,7 +42,7 @@ export default function Home() {
           <a href="https://www.ovofund.com/"><img src="/ovo-icon.webp" className={styles.sponsor}></img></a>
         </div>
 
-        <h3 className={styles.header}>MEMBERS</h3>
+        <h3 className={styles.header} id="members">MEMBERS</h3>
         <div className={styles.grid}>
           <div className={styles.card}>
             <h2>Liam Kronman</h2>
@@ -116,7 +115,7 @@ export default function Home() {
           </div>
         </div>
 
-        <h3 className={styles.header}>PROJECTS</h3>
+        <h3 className={styles.header} id="projects">PROJECTS</h3>
         <p>
           Coming soon...
         </p>
