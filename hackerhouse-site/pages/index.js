@@ -71,14 +71,51 @@ export default function Home() {
             </p>
             <p>
               Hacked the #1 most competitive video game in the world (Fully undetectable, cross-process memory cheat called Limestone)
-
-Trained an AI to detect enemy players in Valorant faster than a human can
-
-Used to go around breaking WPA WiFi security for fun
-
-Decrypted & modified iOS assembler code to hack a social media app (Circumvented Apple’s hardware-backed AES cryptography scheme)
-
-Wrote a small app that would completely freeze any Kahoot game
+            </p>
+            <p>
+              Trained an AI to detect enemy players in Valorant faster than a human can
+            </p>
+            <p>
+              Used to go around breaking WPA WiFi security for fun
+            </p>
+            <p>
+              Decrypted & modified iOS assembler code to hack a social media app (Circumvented Apple’s hardware-backed AES cryptography scheme)
+            </p>
+            <p>
+              Wrote a small app that would completely freeze any Kahoot game
+            </p>
+          </div>
+          <div className={styles.card}>
+            <h2>Tate Berenbaum</h2>
+            <p>Founder of Verto.exchange (the primary decentralized exchange inside of the Arweave ecosystem) and <a href="https://www.arconnect.io/" className={styles.generalLink}>ArConnect.io</a> (the MetaMask for Arweave)</p>
+          </div>
+          <div className={styles.card}>
+            <h2>Joseph Gross</h2>
+            <p>
+              Developed a machine learning algorithm capable of detecting the presence of heavy metals in water samples using Laser Induced Breakdown Spectroscopy in order to identify which areas of the bay are polluted. Developed the data analytics infrastructure while working as a software developer at <a href="https://www.deepblocks.com/" className={styles.generalLink}>Deepblocks</a>, which included building web scrapers, designing complex data pipelines, creating custom dashboards/visualizations, and training machine learning algorithms using NLP.
+            </p>
+            <p>
+              Built a cross platform <a href="https://apps.apple.com/app/apple-store/id1479695237" className={styles.generalLink}>drone delivery app</a> while working as a full Stack software developer at <a href="https://www.flytrex.com/">Flytrex</a> (based in Tel Aviv, Israel). Currently working on multiple Web3/Blockchain related projects: 1) An Ethereum based DEX that aims to provide advanced trading features of CEX to DEX  2) An event management / ticketing ecosystem that takes advantage of the power of the blockchain in order to increase community engagement, legitimize the secondary ticketing market, and simplify the entire event management experience while cutting costs.
+            </p>
+          </div>
+          <div className={styles.card}>
+            <h2>Siddharth Sharma</h2>
+            <p>Multiple ML publications. Worked under 4 different Stanford Professors in high school. Wrote a <a href="https://www.amazon.com/Guide-Machine-Learning-their-Applications/dp/B08C96165Y" className={styles.generalLink}>textbook on ML</a> and submitted papers to NeurIPs. Building an app for geospatial event planning and hosting. Did some crypto price prediction work recently.</p>
+          </div>
+          <div className={styles.card}>
+            <h2>Eric Hong</h2>
+            <p>
+              Worked as iOS developer for Ghost Pacer (<a href="https://www.ghostpacer.com/" className={styles.generalLink}>startup</a>). Built <a href="https://chrome.google.com/webstore/detail/bobby/jbkljccbmlidfglkkgdbcoalnnielepl?hl=en" className={styles.generalLink}>chrome extension</a> (using Stockfish, an open source chess engine) that displays top moves on chess.com.
+            </p>
+          </div>
+          <div className={styles.card}>
+            <h2>Saad Naji</h2>
+            <p>Current Software & Communications Consultant @better.com : Web development, Python automation & web scraping, fintech focused media advertising, crisis management (managed Better’s firing scandal). Previous React developer @blockchainsforschools.org. Created NFT Sniping and account creation bot.</p>
+          </div>
+          <div className={styles.card}>
+            <h2>Ari Schechter</h2>
+            <p>
+              Built <a href="https://beatstreet.live" className={styles.generalLink}>BeatStreet</a> (GitHub for original music) with Liam and <a href="https://brocli.live/" className={styles.generalLink}>Brocli</a>, a site for creating private communities where people can post anonymously. I am currently developing an app for Brocli as well.
             </p>
           </div>
         </div>
