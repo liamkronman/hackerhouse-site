@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Quicksand:wght@400;600');
 
 .container {
-  background: #1199E5;
+  background: #080808;
 }
 
 .main {
@@ -20,7 +20,7 @@
   flex-wrap: wrap;
   width: 100vw;
   justify-content: space-between;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #ffffff;
   padding: 0.5rem;
   color: white;
   font-family: 'Quicksand', sans-serif;
@@ -29,7 +29,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-family: 'Ceviche One', cursive;
   color: white;
 }
@@ -58,7 +58,8 @@
 }
 
 .houseWord {
-  color: #8FD7FF;
+  /* color: #8FD7FF; */
+  color: #808080;
 }
 
 .description1 {
