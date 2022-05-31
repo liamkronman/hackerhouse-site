@@ -53,7 +53,8 @@
 .rightTopNav a:hover,
 .rightTopNav a:focus,
 .rightTopNav a:active {
-  color: #0070f3;
+  /* color: #0070f3; */
+  color: #acacac;
   font-weight: 600;
 }
 
@@ -79,8 +80,15 @@
 }
 
 .hackers {
-  color: #21defb;
+  /* color: #21defb; */
+  color: #acacac;
   font-style: italic;
+}
+
+.hackers:hover,
+.hackers:focus,
+.hackers:active {
+  font-weight: 600;
 }
 
 .header {
@@ -103,12 +111,19 @@
 }
 
 .generalLink {
-  color: #21defb;
+  /* color: #21defb; */
+  color: #acacac;
+}
+
+.generalLink:hover,
+.generalLink:focus,
+.generalLink:active {
+  font-weight: 600;
 }
 
 .grid {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 900px;
@@ -124,6 +139,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 400px;
+  flex: 1 auto;
 }
 .card h2 {
   margin: 0 0 1rem 0;
