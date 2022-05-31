@@ -32,9 +32,9 @@ export default function Home() {
           Our long term goal is to cultivate a tight-knit community of friends who can collaborate with each other to make the next big thing, and a space where the most talented university founders can spend the summer building.
         </p>
 
-        <p className={styles.description}>
+        {/* <p className={styles.description}>
           What sets us apart from other VC-sponsored communities is that ours has naturally formed from personal friendships rather than contrived applications.
-        </p>
+        </p> */}
 
         <h3 className={styles.header}>SPONSORS</h3>
         <div className={styles.sponsors}>
